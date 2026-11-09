@@ -3,10 +3,10 @@ name: Terraform CI/CD
 on:
   push:
     branches:
-      - main
+      - ftr
   pull_request:
     branches:
-      - ftr
+      - main
 
 jobs:
   terraform:
